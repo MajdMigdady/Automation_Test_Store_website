@@ -19,15 +19,15 @@ It is part of a larger QA project developed for the ICT Upskilling Program at Al
 
 ## 🗂 Project Structure
 
-FinalProject/
-├── src/
-│ ├── main/java/FinalProject/
-│ │ ├── AppTest.java # Contains automation test cases
-│ │ └── TestData.java # Test data & browser setup
-├── testng.xml # TestNG suite configuration
-├── screenshots/ # Screenshots of test execution (optional)
-├── test-reports/ # TestNG HTML reports
-└── README.md # Project overview
+FinalProject/<br>
+├── src/<br>
+│ ├── main/java/FinalProject/<br>
+│ │ ├── AppTest.java # Contains automation test cases<br>
+│ │ └── TestData.java # Test data & browser setup<br>
+├── testng.xml # TestNG suite configuration<br>
+├── screenshots/ # Screenshots of test execution (optional)<br>
+├── test-reports/ # TestNG HTML reports<br>
+└── README.md # Project overview<br>
 
 # 📂 FinalProject – Selenium Test Classes
 
