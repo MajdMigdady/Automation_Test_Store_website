@@ -49,6 +49,33 @@ This folder contains the core Java classes used for automated testing of the [Au
   - Contact form submission
 - Test cases are annotated with `@Test` and organized using **TestNG**.
 
+  
+## 📄 Description
+
+This project is a Selenium TestNG automation suite developed to test core functionalities of the [AutomationTestStore](https://automationteststore.com) website. It simulates a complete user journey from homepage access to checkout and contact form submission.
+
+The main test file is `AppTest.java`, which contains 10 functional test cases. It also integrates screenshot capturing and optional database logging of user registration data.
+
+---
+
+## 🚦 Test Scenarios in `AppTest.java`
+
+| Test # | Method Name                | Description |
+|--------|----------------------------|-------------|
+| 1️⃣    | `HomepageAccessibility`    | Checks if the homepage loads and captures a screenshot |
+| 2️⃣    | `UserRegistrationProcess`  | Automates the full user registration form and inserts data into a database |
+| 3️⃣    | `UserLoginFunctionality`   | Logs in using the previously registered user |
+| 4️⃣    | `ProductSearchFunctionality` | Searches for the word "Shampoo" and verifies product results |
+| 5️⃣    | `FilteringSearchResults`   | Filters the search results by "Price Low > High" and verifies sorting |
+| 6️⃣    | `ViewingProductDetails`    | Clicks a random product from "Latest Products" and checks its detail view |
+| 7️⃣    | `AddingProductsToCart`     | Adds the product to the cart and confirms it appears there |
+| 8️⃣    | `ViewingAndModifyingShoppingCart` | Changes product quantity in the cart and verifies the total price |
+| 9️⃣    | `ProceedingToCheckout`     | Completes checkout and verifies success message |
+| 🔟    | `ContactFormSubmission`     | Submits the "Contact Us" form and checks the confirmation message |
+
+---
+
+
 ### 🔹 `TestData.java`
 
 - This class handles:
